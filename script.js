@@ -26,3 +26,14 @@ for(let i=0; i<fruits.length; i++){
 for(const fruit of fruits){
   console.log(fruit);
 }
+
+let object = {
+   name:'Annabel',
+   age:17,
+   eyes:'blue'
+}
+
+for(const property in object){
+   console.log(property);
+   console.log(object[property]);
+}
